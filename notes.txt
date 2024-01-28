@@ -1,0 +1,6 @@
+problem 1 : Solves infinite loop
+problem 2 : If a statement is giving error (undefined because its get rendered after a line where its already used) eg that wasnt coonected yet
+problem 3 : cleaning a timer
+problem 4 : on adding a function as a dependency in effect can acuse infinite loop solution use useCallback
+
+functions in js just a value (or object) and in js even two functions are same still they are not equal ... useCallback returns the same equal function
